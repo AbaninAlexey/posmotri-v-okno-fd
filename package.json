@@ -1,0 +1,17 @@
+{
+  "name": "posmotri-v-okno-fd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write './**/*.{html,css,js}",
+    "lintfix": "stylelint **/*.css --fix",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.26.0"
+  }
+}
