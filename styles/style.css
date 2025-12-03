@@ -299,7 +299,8 @@ ol {
 }
 
 .search-form__submit-button {
-  max-width: 194px;
+  max-width: max-content;
+  padding-inline: 73px;
   align-self: flex-end;
 }
 
