@@ -241,7 +241,7 @@ ol {
     outline-offset: 1px;
   }
 
-  &:not(:has(.search-form__textfield)):hover {
+  &:hover .search-form__label-text {
     text-decoration: underline;
     cursor: pointer;
   }
@@ -257,6 +257,7 @@ ol {
   font-size: 18px;
   padding: 2.5px 14px 2.5px 0;
   max-width: 225px;
+  color: #fff;
 
   &:focus-visible {
     outline: none;
